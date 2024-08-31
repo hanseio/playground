@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?  client=ca-pub-7793796541519291"
+    crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>단위 변환기</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="main-container">
+        <div id="categoryButtons" class="category-buttons">
+            <select id="languageSelect" onchange="changeLanguage()">
+                <option value="ko">🇰🇷 한국어</option>
+                <option value="en">🇺🇸 English</option>
+                <option value="ja">🇯🇵 日本語</option>
+                <option value="es">🇪🇸 Español</option>
+                <option value="de">🇩🇪 Deutsch</option>
+                <option value="fr">🇫🇷 Français</option>
+                <option value="ru">🇷🇺 Русский</option>
+                <option value="it">🇮🇹 Italiano</option>
+            </select>
+            
+            <!-- 모바일 환경에서만 표시될 드롭다운 메뉴 -->
+            <select id="categorySelect" class="category-select" onchange="selectCategory(this.value)">
+                <option value="length">길이</option>
+                <option value="weight">무게</option>
+                <option value="area">면적</option>
+                <option value="volume">부피</option>
+                <option value="temperature">온도</option>
+                <option value="time">시간</option>
+                <option value="speed">속도</option>
+                <option value="dataSize">데이터 크기</option>
+                <option value="energy">에너지</option>
+                <option value="pressure">압력</option>
+                <option value="angle">각도</option>
+                <option value="frequency">주파수</option>
+            </select>
+
+            <!-- 데스크탑 환경에서만 표시될 버튼들 -->
+            <button id="lengthButton" class="category-button active" onclick="selectCategory('length')">길이</button>
+            <button id="weightButton" class="category-button" onclick="selectCategory('weight')">무게</button>
+            <button id="areaButton" class="category-button" onclick="selectCategory('area')">면적</button>
+            <button id="volumeButton" class="category-button" onclick="selectCategory('volume')">부피</button>
+            <button id="temperatureButton" class="category-button" onclick="selectCategory('temperature')">온도</button>
+            <button id="timeButton" class="category-button" onclick="selectCategory('time')">시간</button>
+            <button id="speedButton" class="category-button" onclick="selectCategory('speed')">속도</button>
+            <button id="dataSizeButton" class="category-button" onclick="selectCategory('dataSize')">데이터 크기</button>
+            <button id="energyButton" class="category-button" onclick="selectCategory('energy')">에너지</button>
+            <button id="pressureButton" class="category-button" onclick="selectCategory('pressure')">압력</button>
+            <button id="angleButton" class="category-button" onclick="selectCategory('angle')">각도</button>
+            <button id="frequencyButton" class="category-button" onclick="selectCategory('frequency')">주파수</button>
+        </div>
+
+        <div class="converter-container">
+            <h1 id="title">단위 변환기</h1>
+
+            <div class="input-group">
+                <div>
+                    <label for="fromValue" id="fromValueLabel">값:</label>
+                    <input type="number" id="fromValue" placeholder="변환할 값" oninput="convert()">
+                </div>
+                <div>
+                    <label for="fromUnit" id="fromUnitLabel">단위:</label>
+                    <select id="fromUnit" onchange="convert()"></select>
+                </div>
+            </div>
+            <div class="input-group">
+                <div>
+                    <label for="toUnit" id="toUnitLabel">변환할 단위:</label>
+                    <select id="toUnit" onchange="convert()"></select>
+                </div>
+            </div>
+            <div id="result"></div>
+            <div class="decimal-places">
+                <label for="decimalPlaces" id="decimalPlacesLabel">소수점 자릿수:</label>
+                <select id="decimalPlaces" onchange="convert()">
+                    <option value="0">0</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4" selected>4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                </select>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
