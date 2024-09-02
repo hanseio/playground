@@ -1,4 +1,4 @@
-const translations = {
+const translations = { //언어 추가 시 작업, 단위 추가 시 작업
     ko: {
         title: "단위 변환기",
         fromValue: "값:",
@@ -28,7 +28,20 @@ const translations = {
                 '인치': '인치 (in)',
                 '피트': '피트 (ft)',
                 '야드': '야드 (yd)',
-                '마일': '마일 (mi)'
+                '마일': '마일 (mi)',
+                '마이크로미터': '마이크로미터 (µm)',
+                '나노미터': '나노미터 (nm)',
+                '해리': '해리 (NM)',
+                '퍼롱': '퍼롱 (furlong)',
+                '광년': '광년 (ly)',
+                '천문단위': '천문단위 (AU)',
+                '파섹': '파섹 (pc)',
+                '에렉트론': '에렉트론 (cubit)',
+                '링크': '링크 (lnk)',
+                '체인': '체인 (ch)',
+                '로드': '로드 (rd)',
+                '폴': '폴 (pole)',
+                '퍼치': '퍼치 (perch)'
             },
             weight: {
                 '그램': '그램 (g)',
@@ -130,15 +143,28 @@ const translations = {
         frequencyButton: "Frequency",
         units: {
             length: {
-            '미터': 'Meter (m)',
-            '킬로미터': 'Kilometer (km)',
-            '센티미터': 'Centimeter (cm)',
-            '밀리미터': 'Millimeter (mm)',
-            '인치': 'Inch (in)',
-            '피트': 'Foot (ft)',
-            '야드': 'Yard (yd)',
-            '마일': 'Mile (mi)'
-        },
+                '미터': 'Meter (m)',
+                '킬로미터': 'Kilometer (km)',
+                '센티미터': 'Centimeter (cm)',
+                '밀리미터': 'Millimeter (mm)',
+                '인치': 'Inch (in)',
+                '피트': 'Foot (ft)',
+                '야드': 'Yard (yd)',
+                '마일': 'Mile (mi)',
+                '마이크로미터': 'Micrometer (µm)',
+                '나노미터': 'Nanometer (nm)',
+                '해리': 'Nautical Mile (NM)',
+                '퍼롱': 'Furlong (furlong)',
+                '광년': 'Light Year (ly)',
+                '천문단위': 'Astronomical Unit (AU)',
+                '파섹': 'Parsec (pc)',
+                '에렉트론': 'Cubit (cubit)',
+                '링크': 'Link (lnk)',
+                '체인': 'Chain (ch)',
+                '로드': 'Rod (rd)',
+                '폴': 'Pole (pole)',
+                '퍼치': 'Perch (perch)'
+            },
         weight: {
             '그램': 'Gram (g)',
             '킬로그램': 'Kilogram (kg)',
@@ -246,7 +272,20 @@ const translations = {
                 '인치': 'インチ (in)',
                 '피트': 'フィート (ft)',
                 '야드': 'ヤード (yd)',
-                '마일': 'マイル (mi)'
+                '마일': 'マイル (mi)',
+                '마이크ロ미터': 'マイクロメートル (µm)',
+                '나노미터': 'ナノメートル (nm)',
+                '해리': '海里 (NM)',
+                '퍼롱': 'ファーロング (furlong)',
+                '광년': '光年 (ly)',
+                '천문단위': '天文単位 (AU)',
+                '파섹': 'パーセク (pc)',
+                '에렉트론': 'キュービット (cubit)',
+                '링크': 'リンク (lnk)',
+                '체인': 'チェーン (ch)',
+                '로드': 'ロッド (rd)',
+                '폴': 'ポール (pole)',
+                '퍼치': 'パーチ (perch)'
             },
             weight: {
                 '그램': 'グラム (g)',
@@ -355,7 +394,20 @@ const translations = {
                 '인치': 'Pulgada (in)',
                 '피트': 'Pie (ft)',
                 '야드': 'Yarda (yd)',
-                '마일': 'Milla (mi)'
+                '마일': 'Milla (mi)',
+                '마이크로미터': 'Micrómetro (µm)',
+                '나노미터': 'Nanómetro (nm)',
+                '해리': 'Milla náutica (NM)',
+                '퍼롱': 'Furlong (furlong)',
+                '광년': 'Año luz (ly)',
+                '천문단위': 'Unidad astronómica (AU)',
+                '파섹': 'Parsec (pc)',
+                '에렉트론': 'Codo (cubit)',
+                '링크': 'Link (lnk)',
+                '체인': 'Cadena (ch)',
+                '로드': 'Vara (rd)',
+                '폴': 'Polo (pole)',
+                '퍼치': 'Percha (perch)'
             },
             weight: {
                 '그램': 'Gramo (g)',
@@ -464,7 +516,20 @@ const translations = {
                 '인치': 'Zoll (in)',
                 '피트': 'Fuß (ft)',
                 '야드': 'Yard (yd)',
-                '마일': 'Meile (mi)'
+                '마일': 'Meile (mi)',
+                '마이크로미터': 'Mikrometer (µm)',
+                '나노미터': 'Nanometer (nm)',
+                '해리': 'Seemeile (NM)',
+                '퍼롱': 'Furlong (furlong)',
+                '광년': 'Lichtjahr (ly)',
+                '천문단위': 'Astronomische Einheit (AU)',
+                '파섹': 'Parsec (pc)',
+                '에렉트론': 'Ellen (cubit)',
+                '링크': 'Kette (lnk)',
+                '체인': 'Chain (ch)',
+                '로드': 'Rute (rd)',
+                '폴': 'Stange (pole)',
+                '퍼치': 'Perch (perch)'
             },
             weight: {
                 '그램': 'Gramm (g)',
@@ -573,7 +638,20 @@ const translations = {
                 '인치': 'Pouce (in)',
                 '피트': 'Pied (ft)',
                 '야드': 'Yard (yd)',
-                '마일': 'Mille (mi)'
+                '마일': 'Mille (mi)',
+                '마이크로미터': 'Micromètre (µm)',
+                '나노미터': 'Nanomètre (nm)',
+                '해리': 'Mille marin (NM)',
+                '퍼롱': 'Furlong (furlong)',
+                '광년': 'Année-lumière (ly)',
+                '천문단위': 'Unité astronomique (AU)',
+                '파섹': 'Parsec (pc)',
+                '에렉트론': 'Coudée (cubit)',
+                '링크': 'Lien (lnk)',
+                '체인': 'Chaîne (ch)',
+                '로드': 'Perche (rd)',
+                '폴': 'Poteau (pole)',
+                '퍼치': 'Perche (perch)'
             },
             weight: {
                 '그램': 'Gramme (g)',
@@ -675,14 +753,27 @@ const translations = {
         frequencyButton: "Частота",
         units: {
             length: {
-                '미터': 'Метр (м)',
-                '킬로미터': 'Километр (км)',
-                '센티미터': 'Сантиметр (см)',
-                '밀리미터': 'Миллиметр (мм)',
+                '미터': 'Метр (m)',
+                '킬로미터': 'Километр (km)',
+                '센티미터': 'Сантиметр (cm)',
+                '밀리미터': 'Миллиметр (mm)',
                 '인치': 'Дюйм (in)',
                 '피트': 'Фут (ft)',
                 '야드': 'Ярд (yd)',
-                '마일': 'Миля (mi)'
+                '마일': 'Миля (mi)',
+                '마이크로미터': 'Микрометр (µm)',
+                '나노미터': 'Нанометр (nm)',
+                '해리': 'Морская миля (NM)',
+                '퍼롱': 'Фарлонг (furlong)',
+                '광년': 'Световой год (ly)',
+                '천문단위': 'Астрономическая единица (AU)',
+                '파섹': 'Парсек (pc)',
+                '에렉트론': 'Локоть (cubit)',
+                '링크': 'Линк (lnk)',
+                '체인': 'Чейн (ch)',
+                '로드': 'Род (rd)',
+                '폴': 'Полюс (pole)',
+                '퍼치': 'Перч (perch)'
             },
             weight: {
                 '그램': 'Грамм (г)',
@@ -791,8 +882,21 @@ const translations = {
                 '인치': 'Pollice (in)',
                 '피트': 'Piede (ft)',
                 '야드': 'Iarda (yd)',
-                '마일': 'Miglio (mi)'
-            },
+                '마일': 'Miglio (mi)',
+                '마이크로미터': 'Micrometro (µm)',
+                '나노미터': 'Nanometro (nm)',
+                '해리': 'Miglio nautico (NM)',
+                '퍼롱': 'Furlong (furlong)',
+                '광년': 'Anno luce (ly)',
+                '천문단위': 'Unità astronomica (AU)',
+                '파섹': 'Parsec (pc)',
+                '에렉트론': 'Cubit (cubit)',
+                '링크': 'Link (lnk)',
+                '체인': 'Catena (ch)',
+                '로드': 'Asta (rd)',
+                '폴': 'Palo (pole)',
+                '퍼치': 'Perch (perch)'
+                },
             weight: {
                 '그램': 'Grammo (g)',
                 '킬로그램': 'Chilogrammo (kg)',
@@ -870,9 +974,864 @@ const translations = {
                 '기가헤르츠': 'Gigahertz (GHz)'
         }
     }
+},
+    "pt-BR": {
+        title: "Conversor de Unidades",
+        fromValue: "Valor:",
+        fromUnit: "Unidade:",
+        toUnit: "Converter para:",
+        decimalPlaces: "Casas decimais:",
+        placeholder: "Digite um valor",
+        invalidNumber: "Por favor, insira um número válido.",
+        lengthButton: "Comprimento",
+        weightButton: "Peso",
+        areaButton: "Área",
+        volumeButton: "Volume",
+        temperatureButton: "Temperatura",
+        timeButton: "Tempo",
+        speedButton: "Velocidade",
+        dataSizeButton: "Tamanho de Dados",
+        energyButton: "Energia",
+        pressureButton: "Pressão",
+        angleButton: "Ângulo",
+        frequencyButton: "Frequência",
+        units: {
+            length: {
+                '미터': 'Metro (m)',
+                '킬로미터': 'Quilômetro (km)',
+                '센티미터': 'Centímetro (cm)',
+                '밀리미터': 'Milímetro (mm)',
+                '인치': 'Polegada (in)',
+                '피트': 'Pé (ft)',
+                '야드': 'Jarda (yd)',
+                '마일': 'Milha (mi)',
+                '마이크로미터': 'Micrômetro (µm)',
+                '나노미터': 'Nanômetro (nm)',
+                '해리': 'Milha náutica (NM)',
+                '퍼롱': 'Furlong (furlong)',
+                '광년': 'Ano-luz (ly)',
+                '천문단위': 'Unidade Astronômica (AU)',
+                '파섹': 'Parsec (pc)',
+                '에렉트론': 'Cúbito (cubit)',
+                '링크': 'Link (lnk)',
+                '체인': 'Cadeia (ch)',
+                '로드': 'Vara (rd)',
+                '폴': 'Polo (pole)',
+                '퍼치': 'Perche (perch)'
+            },
+            weight: {
+                '그램': 'Grama (g)',
+                '킬로그램': 'Quilograma (kg)',
+                '밀리그램': 'Miligramas (mg)',
+                '톤': 'Tonelada (t)',
+                '파운드': 'Libra (lb)',
+                '온스': 'Onça (oz)'
+            },
+            area: {
+                '제곱미터': 'Metro quadrado (m²)',
+                '제곱킬로미터': 'Quilômetro quadrado (km²)',
+                '헥타르': 'Hectare (ha)',
+                '제곱피트': 'Pé quadrado (ft²)',
+                '제곱야드': 'Jarda quadrada (yd²)',
+                '에이커': 'Acre (ac)'
+            },
+            volume: {
+                '세제곱미터': 'Metro cúbico (m³)',
+                '리터': 'Litro (L)',
+                '밀리리터': 'Mililitro (mL)',
+                '갤런': 'Galão (gal)',
+                '쿼트': 'Quartilho (qt)',
+                '파인트': 'Pinta (pt)'
+            },
+            temperature: {
+                '섭씨': 'Celsius (°C)',
+                '화씨': 'Fahrenheit (°F)',
+                '켈빈': 'Kelvin (K)'
+            },
+            time: {
+                '초': 'Segundo (s)',
+                '분': 'Minuto (min)',
+                '시간': 'Hora (h)',
+                '일': 'Dia (d)',
+                '주': 'Semana (wk)',
+                '년': 'Ano (yr)'
+            },
+            speed: {
+                '미터/초': 'Metros por segundo (m/s)',
+                '킬로미터/시': 'Quilômetros por hora (km/h)',
+                '마일/시': 'Milhas por hora (mph)',
+                '노트': 'Nó (kn)'
+            },
+            dataSize: {
+                '바이트': 'Byte (B)',
+                '킬로바이트': 'Kilobyte (KB)',
+                '메가바이트': 'Megabyte (MB)',
+                '기가바이트': 'Gigabyte (GB)',
+                '테라바이트': 'Terabyte (TB)'
+            },
+            energy: {
+                '줄': 'Joule (J)',
+                '킬로줄': 'Quilojoule (kJ)',
+                '칼로리': 'Caloria (cal)',
+                '킬로칼로리': 'Quilocaloria (kcal)',
+                '와트시': 'Watt-hora (Wh)',
+                '킬로와트시': 'Quilowatt-hora (kWh)'
+            },
+            pressure: {
+                '파스칼': 'Pascal (Pa)',
+                '킬로파스칼': 'Quilopascal (kPa)',
+                '바': 'Bar (bar)',
+                '대기압': 'Atmosfera (atm)',
+                '평방 인치 당 파운드(psi)': 'Libra por polegada quadrada (psi)'
+            },
+            angle: {
+                '도': 'Grau (°)',
+                '라디안': 'Radiano (rad)',
+                '그라디안': 'Gradian (grad)'
+            },
+            frequency: {
+                '헤르츠': 'Hertz (Hz)',
+                '킬로헤르츠': 'Quilohertz (kHz)',
+                '메가헤르츠': 'Megahertz (MHz)',
+                '기가헤르츠': 'Gigahertz (GHz)'
+        }
+    }
+},
+    id: {
+        title: "Konverter Satuan",
+        fromValue: "Nilai:",
+        fromUnit: "Satuan:",
+        toUnit: "Konversi ke:",
+        decimalPlaces: "Tempat desimal:",
+        placeholder: "Masukkan nilai",
+        invalidNumber: "Silakan masukkan angka yang valid.",
+        lengthButton: "Panjang",
+        weightButton: "Berat",
+        areaButton: "Area",
+        volumeButton: "Volume",
+        temperatureButton: "Suhu",
+        timeButton: "Waktu",
+        speedButton: "Kecepatan",
+        dataSizeButton: "Ukuran Data",
+        energyButton: "Energi",
+        pressureButton: "Tekanan",
+        angleButton: "Sudut",
+        frequencyButton: "Frekuensi",
+        units: {
+            length: {
+                '미터': 'Meter (m)',
+                '킬로미터': 'Kilometer (km)',
+                '센티미터': 'Sentimeter (cm)',
+                '밀리미터': 'Milimeter (mm)',
+                '인치': 'Inci (in)',
+                '피트': 'Kaki (ft)',
+                '야드': 'Yard (yd)',
+                '마일': 'Mil (mi)',
+                '마이크로미터': 'Mikrometer (µm)',
+                '나노미터': 'Nanometer (nm)',
+                '해리': 'Mil laut (NM)',
+                '퍼롱': 'Furlong (furlong)',
+                '광년': 'Tahun cahaya (ly)',
+                '천문단위': 'Satuan Astronomi (AU)',
+                '파섹': 'Parsek (pc)',
+                '에렉트론': 'Kubik (cubit)',
+                '링크': 'Link (lnk)',
+                '체인': 'Rantai (ch)',
+                '로드': 'Rod (rd)',
+                '폴': 'Pole (pole)',
+                '퍼치': 'Perch (perch)'
+            },
+            weight: {
+                '그램': 'Gram (g)',
+                '킬로그램': 'Kilogram (kg)',
+                '밀리그램': 'Miligram (mg)',
+                '톤': 'Ton (t)',
+                '파운드': 'Pound (lb)',
+                '온스': 'Ons (oz)'
+            },
+            area: {
+                '제곱미터': 'Meter persegi (m²)',
+                '제곱킬로미터': 'Kilometer persegi (km²)',
+                '헥타르': 'Hektar (ha)',
+                '제곱피트': 'Kaki persegi (ft²)',
+                '제곱야드': 'Yard persegi (yd²)',
+                '에이커': 'Acre (ac)'
+            },
+            volume: {
+                '세제곱미터': 'Meter kubik (m³)',
+                '리터': 'Liter (L)',
+                '밀리리터': 'Mililiter (mL)',
+                '갤런': 'Galon (gal)',
+                '쿼트': 'Kuart (qt)',
+                '파인트': 'Pint (pt)'
+            },
+            temperature: {
+                '섭씨': 'Celsius (°C)',
+                '화씨': 'Fahrenheit (°F)',
+                '켈빈': 'Kelvin (K)'
+            },
+            time: {
+                '초': 'Detik (s)',
+                '분': 'Menit (min)',
+                '시간': 'Jam (h)',
+                '일': 'Hari (d)',
+                '주': 'Minggu (wk)',
+                '년': 'Tahun (yr)'
+            },
+            speed: {
+                '미터/초': 'Meter per detik (m/s)',
+                '킬로미터/시': 'Kilometer per jam (km/h)',
+                '마일/시': 'Mil per jam (mph)',
+                '노트': 'Knot (kn)'
+            },
+            dataSize: {
+                '바이트': 'Byte (B)',
+                '킬로바이트': 'Kilobyte (KB)',
+                '메가바이트': 'Megabyte (MB)',
+                '기가바이트': 'Gigabyte (GB)',
+                '테라바이트': 'Terabyte (TB)'
+            },
+            energy: {
+                '줄': 'Joule (J)',
+                '킬로줄': 'Kilojoule (kJ)',
+                '칼로리': 'Kalori (cal)',
+                '킬로칼로리': 'Kilokalori (kcal)',
+                '와트시': 'Watt-jam (Wh)',
+                '킬로와트시': 'Kilowatt-jam (kWh)'
+            },
+            pressure: {
+                '파스칼': 'Pascal (Pa)',
+                '킬로파스칼': 'Kilopascal (kPa)',
+                '바': 'Bar (bar)',
+                '대기압': 'Atmosfer (atm)',
+                '평방 인치 당 파운드(psi)': 'Pound per inci persegi (psi)'
+            },
+            angle: {
+                '도': 'Derajat (°)',
+                '라디안': 'Radian (rad)',
+                '그라디안': 'Gradian (grad)'
+            },
+            frequency: {
+                '헤르츠': 'Hertz (Hz)',
+                '킬로헤르츠': 'Kilohertz (kHz)',
+                '메가헤르츠': 'Megahertz (MHz)',
+                '기가헤르츠': 'Gigahertz (GHz)'
+        }
+    }
+},
+    "zh-CN": {
+        title: "单位转换器",
+        fromValue: "值:",
+        fromUnit: "单位:",
+        toUnit: "转换为:",
+        decimalPlaces: "小数位数:",
+        placeholder: "输入值",
+        invalidNumber: "请输入有效的数字。",
+        lengthButton: "长度",
+        weightButton: "重量",
+        areaButton: "面积",
+        volumeButton: "体积",
+        temperatureButton: "温度",
+        timeButton: "时间",
+        speedButton: "速度",
+        dataSizeButton: "数据大小",
+        energyButton: "能量",
+        pressureButton: "压力",
+        angleButton: "角度",
+        frequencyButton: "频率",
+        units: {
+            length: {
+                '미터': '米 (m)',
+                '킬로미터': '千米 (km)',
+                '센티미터': '厘米 (cm)',
+                '밀리미터': '毫米 (mm)',
+                '인치': '英寸 (in)',
+                '피트': '英尺 (ft)',
+                '야드': '码 (yd)',
+                '마일': '英里 (mi)',
+                '마이크로미터': '微米 (µm)',
+                '나노미터': '纳米 (nm)',
+                '해리': '海里 (NM)',
+                '퍼롱': '弗隆 (furlong)',
+                '광년': '光年 (ly)',
+                '천문단위': '天文单位 (AU)',
+                '파섹': '秒差距 (pc)',
+                '에렉트론': '臂尺 (cubit)',
+                '링크': '链环 (lnk)',
+                '체인': '链 (ch)',
+                '로드': '杆 (rd)',
+                '폴': '杆 (pole)',
+                '퍼치': '杆 (perch)'
+            },
+            weight: {
+                '그램': '克 (g)',
+                '킬로그램': '千克 (kg)',
+                '밀리그램': '毫克 (mg)',
+                '톤': '吨 (t)',
+                '파운드': '磅 (lb)',
+                '온스': '盎司 (oz)'
+            },
+            area: {
+                '제곱미터': '平方米 (m²)',
+                '제곱킬로미터': '平方千米 (km²)',
+                '헥타르': '公顷 (ha)',
+                '제곱피트': '平方英尺 (ft²)',
+                '제곱야드': '平方码 (yd²)',
+                '에이커': '英亩 (ac)'
+            },
+            volume: {
+                '세제곱미터': '立方米 (m³)',
+                '리터': '升 (L)',
+                '밀리리터': '毫升 (mL)',
+                '갤런': '加仑 (gal)',
+                '쿼트': '夸脱 (qt)',
+                '파인트': '品脱 (pt)'
+            },
+            temperature: {
+                '섭씨': '摄氏度 (°C)',
+                '화씨': '华氏度 (°F)',
+                '켈빈': '开尔文 (K)'
+            },
+            time: {
+                '초': '秒 (s)',
+                '분': '分钟 (min)',
+                '시간': '小时 (h)',
+                '일': '天 (d)',
+                '주': '周 (wk)',
+                '년': '年 (yr)'
+            },
+            speed: {
+                '미터/초': '米每秒 (m/s)',
+                '킬로미터/시': '千米每小时 (km/h)',
+                '마일/시': '英里每小时 (mph)',
+                '노트': '节 (kn)'
+            },
+            dataSize: {
+                '바이트': '字节 (B)',
+                '킬로바이트': '千字节 (KB)',
+                '메가바이트': '兆字节 (MB)',
+                '기가바이트': '吉字节 (GB)',
+                '테라바이트': '太字节 (TB)'
+            },
+            energy: {
+                '줄': '焦耳 (J)',
+                '킬로줄': '千焦耳 (kJ)',
+                '칼로리': '卡路里 (cal)',
+                '킬로칼로리': '千卡路里 (kcal)',
+                '와트시': '瓦时 (Wh)',
+                '킬로와트시': '千瓦时 (kWh)'
+            },
+            pressure: {
+                '파스칼': '帕斯卡 (Pa)',
+                '킬로파스칼': '千帕斯卡 (kPa)',
+                '바': '巴 (bar)',
+                '대기압': '大气压 (atm)',
+                '평방 인치 당 파운드(psi)': '磅每平方英寸 (psi)'
+            },
+            angle: {
+                '도': '度 (°)',
+                '라디안': '弧度 (rad)',
+                '그라디안': '百分度 (grad)'
+            },
+            frequency: {
+                '헤르츠': '赫兹 (Hz)',
+                '킬로헤르츠': '千赫兹 (kHz)',
+                '메가헤르츠': '兆赫兹 (MHz)',
+                '기가헤르츠': '吉赫兹 (GHz)'
+        }
+    }
+},
+    ar: {
+        title: "محول الوحدات",
+        fromValue: "القيمة:",
+        fromUnit: "الوحدة:",
+        toUnit: "تحويل إلى:",
+        decimalPlaces: "الأماكن العشرية:",
+        placeholder: "أدخل القيمة",
+        invalidNumber: "يرجى إدخال رقم صحيح.",
+        lengthButton: "الطول",
+        weightButton: "الوزن",
+        areaButton: "المساحة",
+        volumeButton: "الحجم",
+        temperatureButton: "درجة الحرارة",
+        timeButton: "الوقت",
+        speedButton: "السرعة",
+        dataSizeButton: "حجم البيانات",
+        energyButton: "الطاقة",
+        pressureButton: "الضغط",
+        angleButton: "الزاوية",
+        frequencyButton: "التردد",
+        units: {
+            length: {
+                '미터': 'متر (m)',
+                '킬로미터': 'كيلومتر (km)',
+                '센티미터': 'سنتيمتر (cm)',
+                '밀리미터': 'ميليمتر (mm)',
+                '인치': 'بوصة (in)',
+                '피트': 'قدم (ft)',
+                '야드': 'ياردة (yd)',
+                '마일': 'ميل (mi)',
+                '마이크로미터': 'ميكرومتر (µm)',
+                '나노미터': 'نانومتر (nm)',
+                '해리': 'ميل بحري (NM)',
+                '퍼롱': 'فرلنغ (furlong)',
+                '광년': 'سنة ضوئية (ly)',
+                '천문단위': 'وحدة فلكية (AU)',
+                '파섹': 'فرسخ فلكي (pc)',
+                '에렉트론': 'كيوبت (cubit)',
+                '링크': 'لينك (lnk)',
+                '체인': 'سلسلة (ch)',
+                '로드': 'عمود (rd)',
+                '폴': 'عمود (pole)',
+                '퍼치': 'عمود (perch)'
+            },
+            weight: {
+                '그램': 'جرام (g)',
+                '킬로그램': 'كيلوجرام (kg)',
+                '밀리그램': 'ميليجرام (mg)',
+                '톤': 'طن (t)',
+                '파운드': 'رطل (lb)',
+                '온스': 'أوقية (oz)'
+            },
+            area: {
+                '제곱미터': 'متر مربع (m²)',
+                '제곱킬로미터': 'كيلومتر مربع (km²)',
+                '헥타르': 'هكتار (ha)',
+                '제곱피트': 'قدم مربع (ft²)',
+                '제곱야드': 'ياردة مربعة (yd²)',
+                '에이커': 'فدان (ac)'
+            },
+            volume: {
+                '세제곱미터': 'متر مكعب (m³)',
+                '리터': 'لتر (L)',
+                '밀리리터': 'ميليلتر (mL)',
+                '갤런': 'جالون (gal)',
+                '쿼트': 'كوارت (qt)',
+                '파인트': 'باينت (pt)'
+            },
+            temperature: {
+                '섭씨': 'درجة مئوية (°C)',
+                '화씨': 'درجة فهرنهايت (°F)',
+                '켈빈': 'كلفن (K)'
+            },
+            time: {
+                '초': 'ثانية (s)',
+                '분': 'دقيقة (min)',
+                '시간': 'ساعة (h)',
+                '일': 'يوم (d)',
+                '주': 'أسبوع (wk)',
+                '년': 'سنة (yr)'
+            },
+            speed: {
+                '미터/초': 'متر في الثانية (m/s)',
+                '킬로미터/시': 'كيلومتر في الساعة (km/h)',
+                '마일/시': 'ميل في الساعة (mph)',
+                '노트': 'عقدة (kn)'
+            },
+            dataSize: {
+                '바이트': 'بايت (B)',
+                '킬로바이트': 'كيلوبايت (KB)',
+                '메가바이트': 'ميجابايت (MB)',
+                '기가바이트': 'جيجابايت (GB)',
+                '테라바이트': 'تيرابايت (TB)'
+            },
+            energy: {
+                '줄': 'جول (J)',
+                '킬로줄': 'كيلوجول (kJ)',
+                '칼로리': 'سعرة حرارية (cal)',
+                '킬로칼로리': 'كيلو سعرة حرارية (kcal)',
+                '와트시': 'واط ساعة (Wh)',
+                '킬로와트시': 'كيلوواط ساعة (kWh)'
+            },
+            pressure: {
+                '파스칼': 'باسكال (Pa)',
+                '킬로파스칼': 'كيلوباسكال (kPa)',
+                '바': 'بار (bar)',
+                '대기압': 'الضغط الجوي (atm)',
+                '평방 인치 당 파운드(psi)': 'رطل لكل بوصة مربعة (psi)'
+            },
+            angle: {
+                '도': 'درجة (°)',
+                '라디안': 'راديان (rad)',
+                '그라디안': 'غراديان (grad)'
+            },
+            frequency: {
+                '헤르츠': 'هرتز (Hz)',
+                '킬로헤르츠': 'كيلوهرتز (kHz)',
+                '메가헤르츠': 'ميجاهرتز (MHz)',
+                '기가헤르츠': 'جيجاهرتز (GHz)'
+        }
+    }
+},
+    vi: {
+        title: "Bộ Chuyển Đổi Đơn Vị",
+        fromValue: "Giá trị:",
+        fromUnit: "Đơn vị:",
+        toUnit: "Chuyển đổi sang:",
+        decimalPlaces: "Số thập phân:",
+        placeholder: "Nhập giá trị",
+        invalidNumber: "Vui lòng nhập một số hợp lệ.",
+        lengthButton: "Chiều dài",
+        weightButton: "Khối lượng",
+        areaButton: "Diện tích",
+        volumeButton: "Thể tích",
+        temperatureButton: "Nhiệt độ",
+        timeButton: "Thời gian",
+        speedButton: "Tốc độ",
+        dataSizeButton: "Kích thước dữ liệu",
+        energyButton: "Năng lượng",
+        pressureButton: "Áp suất",
+        angleButton: "Góc",
+        frequencyButton: "Tần số",
+        units: {
+            length: {
+                '미터': 'Mét (m)',
+                '킬로미터': 'Kilômét (km)',
+                '센티미터': 'Xentimét (cm)',
+                '밀리미터': 'Milimét (mm)',
+                '인치': 'Inch (in)',
+                '피트': 'Feet (ft)',
+                '야드': 'Yard (yd)',
+                '마일': 'Dặm (mi)',
+                '마이크로미터': 'Micrômét (µm)',
+                '나노미터': 'Nanomét (nm)',
+                '해리': 'Hải lý (NM)',
+                '퍼롱': 'Furlong (furlong)',
+                '광년': 'Năm ánh sáng (ly)',
+                '천문단위': 'Đơn vị thiên văn (AU)',
+                '파섹': 'Parsec (pc)',
+                '에렉트론': 'Cubit (cubit)',
+                '링크': 'Liên kết (lnk)',
+                '체인': 'Chuỗi (ch)',
+                '로드': 'Gậy (rd)',
+                '폴': 'Gậy (pole)',
+                '퍼치': 'Gậy (perch)'
+            },
+            weight: {
+                '그램': 'Gram (g)',
+                '킬로그램': 'Kilôgam (kg)',
+                '밀리그램': 'Miligram (mg)',
+                '톤': 'Tấn (t)',
+                '파운드': 'Pound (lb)',
+                '온스': 'Ounce (oz)'
+            },
+            area: {
+                '제곱미터': 'Mét vuông (m²)',
+                '제곱킬로미터': 'Kilômét vuông (km²)',
+                '헥타르': 'Hecta (ha)',
+                '제곱피트': 'Feet vuông (ft²)',
+                '제곱야드': 'Yard vuông (yd²)',
+                '에이커': 'Mẫu Anh (ac)'
+            },
+            volume: {
+                '세제곱미터': 'Mét khối (m³)',
+                '리터': 'Lít (L)',
+                '밀리리터': 'Mililít (mL)',
+                '갤런': 'Gallon (gal)',
+                '쿼트': 'Quart (qt)',
+                '파인트': 'Pint (pt)'
+            },
+            temperature: {
+                '섭씨': 'Celsius (°C)',
+                '화씨': 'Fahrenheit (°F)',
+                '켈빈': 'Kelvin (K)'
+            },
+            time: {
+                '초': 'Giây (s)',
+                '분': 'Phút (min)',
+                '시간': 'Giờ (h)',
+                '일': 'Ngày (d)',
+                '주': 'Tuần (wk)',
+                '년': 'Năm (yr)'
+            },
+            speed: {
+                '미터/초': 'Mét trên giây (m/s)',
+                '킬로미터/시': 'Kilômét trên giờ (km/h)',
+                '마일/시': 'Dặm trên giờ (mph)',
+                '노트': 'Hải lý trên giờ (kn)'
+            },
+            dataSize: {
+                '바이트': 'Byte (B)',
+                '킬로바이트': 'Kilobyte (KB)',
+                '메가바이트': 'Megabyte (MB)',
+                '기가바이트': 'Gigabyte (GB)',
+                '테라바이트': 'Terabyte (TB)'
+            },
+            energy: {
+                '줄': 'Joule (J)',
+                '킬로줄': 'Kilojoule (kJ)',
+                '칼로리': 'Calo (cal)',
+                '킬로칼로리': 'Kilocalo (kcal)',
+                '와트시': 'Watt-giờ (Wh)',
+                '킬로와트시': 'Kilowatt-giờ (kWh)'
+            },
+            pressure: {
+                '파스칼': 'Pascal (Pa)',
+                '킬로파스칼': 'Kilopascal (kPa)',
+                '바': 'Thanh (bar)',
+                '대기압': 'Áp suất khí quyển (atm)',
+                '평방 인치 당 파운드(psi)': 'Pound trên inch vuông (psi)'
+            },
+            angle: {
+                '도': 'Độ (°)',
+                '라디안': 'Radian (rad)',
+                '그라디안': 'Gradian (grad)'
+            },
+            frequency: {
+                '헤르츠': 'Hertz (Hz)',
+                '킬로헤르츠': 'Kilohertz (kHz)',
+                '메가헤르츠': 'Megahertz (MHz)',
+                '기가헤르츠': 'Gigahertz (GHz)'
+        }
+    }
+},
+    uk: {
+        title: "Конвертер одиниць",
+        fromValue: "Значення:",
+        fromUnit: "Одиниця:",
+        toUnit: "Перетворити в:",
+        decimalPlaces: "Десяткові знаки:",
+        placeholder: "Введіть значення",
+        invalidNumber: "Будь ласка, введіть дійсне число.",
+        lengthButton: "Довжина",
+        weightButton: "Вага",
+        areaButton: "Площа",
+        volumeButton: "Обсяг",
+        temperatureButton: "Температура",
+        timeButton: "Час",
+        speedButton: "Швидкість",
+        dataSizeButton: "Розмір даних",
+        energyButton: "Енергія",
+        pressureButton: "Тиск",
+        angleButton: "Кут",
+        frequencyButton: "Частота",
+        units: {
+            length: {
+                '미터': 'Метр (m)',
+                '킬로미터': 'Кілометр (km)',
+                '센티미터': 'Сантиметр (cm)',
+                '밀리미터': 'Міліметр (mm)',
+                '인치': 'Дюйм (in)',
+                '피트': 'Фут (ft)',
+                '야드': 'Ярд (yd)',
+                '마일': 'Миля (mi)',
+                '마이크로미터': 'Мікрометр (µm)',
+                '나노미터': 'Нанометр (nm)',
+                '해리': 'Морська миля (NM)',
+                '퍼롱': 'Фурлонг (furlong)',
+                '광년': 'Світловий рік (ly)',
+                '천문단위': 'Астрономічна одиниця (AU)',
+                '파섹': 'Парсек (pc)',
+                '에렉트론': 'Кубіт (cubit)',
+                '링크': 'Лінк (lnk)',
+                '체인': 'Ланцюг (ch)',
+                '로드': 'Род (rd)',
+                '폴': 'Полюс (pole)',
+                '퍼치': 'Полюс (perch)'
+            },
+            weight: {
+                '그램': 'Грам (g)',
+                '킬로그램': 'Кілограм (kg)',
+                '밀리그램': 'Міліграм (mg)',
+                '톤': 'Тонна (t)',
+                '파운드': 'Фунт (lb)',
+                '온스': 'Унція (oz)'
+            },
+            area: {
+                '제곱미터': 'Квадратний метр (m²)',
+                '제곱킬로미터': 'Квадратний кілометр (km²)',
+                '헥타르': 'Гектар (ha)',
+                '제곱피트': 'Квадратний фут (ft²)',
+                '제곱야드': 'Квадратний ярд (yd²)',
+                '에이커': 'Акр (ac)'
+            },
+            volume: {
+                '세제곱미터': 'Кубічний метр (m³)',
+                '리터': 'Літр (L)',
+                '밀리리터': 'Мілілітр (mL)',
+                '갤런': 'Галон (gal)',
+                '쿼트': 'Кварта (qt)',
+                '파인트': 'Пінта (pt)'
+            },
+            temperature: {
+                '섭씨': 'Цельсій (°C)',
+                '화씨': 'Фаренгейт (°F)',
+                '켈빈': 'Кельвін (K)'
+            },
+            time: {
+                '초': 'Секунда (s)',
+                '분': 'Хвилина (min)',
+                '시간': 'Година (h)',
+                '일': 'День (d)',
+                '주': 'Тиждень (wk)',
+                '년': 'Рік (yr)'
+            },
+            speed: {
+                '미터/초': 'Метри за секунду (m/s)',
+                '킬로미터/시': 'Кілометри на годину (km/h)',
+                '마일/시': 'Милі на годину (mph)',
+                '노트': 'Вузол (kn)'
+            },
+            dataSize: {
+                '바이트': 'Байт (B)',
+                '킬로바이트': 'Кілобайт (KB)',
+                '메가바이트': 'Мегабайт (MB)',
+                '기가바이트': 'Гігабайт (GB)',
+                '테라바이트': 'Терабайт (TB)'
+            },
+            energy: {
+                '줄': 'Джоуль (J)',
+                '킬로줄': 'Кілоджоуль (kJ)',
+                '칼로리': 'Калорія (cal)',
+                '킬로칼로리': 'Кілокалорія (kcal)',
+                '와트시': 'Ват-година (Wh)',
+                '킬로와트시': 'Кіловат-година (kWh)'
+            },
+            pressure: {
+                '파스칼': 'Паскаль (Pa)',
+                '킬로파스칼': 'Кілопаскаль (kPa)',
+                '바': 'Бар (bar)',
+                '대기압': 'Атмосферний тиск (atm)',
+                '평방 인치 당 파운드(psi)': 'Фунт на квадратний дюйм (psi)'
+            },
+            angle: {
+                '도': 'Градус (°)',
+                '라디안': 'Радіан (rad)',
+                '그라디안': 'Градіан (grad)'
+            },
+            frequency: {
+                '헤르츠': 'Герц (Hz)',
+                '킬로헤르츠': 'Кілогерц (kHz)',
+                '메가헤르츠': 'Мегагерц (MHz)',
+                '기가헤르츠': 'Гігагерц (GHz)'
+        }
+    }
+},
+    tr: {
+        title: "Birim Dönüştürücü",
+        fromValue: "Değer:",
+        fromUnit: "Birim:",
+        toUnit: "Dönüştürülecek birim:",
+        decimalPlaces: "Ondalık basamaklar:",
+        placeholder: "Değeri girin",
+        invalidNumber: "Lütfen geçerli bir sayı girin.",
+        lengthButton: "Uzunluk",
+        weightButton: "Ağırlık",
+        areaButton: "Alan",
+        volumeButton: "Hacim",
+        temperatureButton: "Sıcaklık",
+        timeButton: "Zaman",
+        speedButton: "Hız",
+        dataSizeButton: "Veri Boyutu",
+        energyButton: "Enerji",
+        pressureButton: "Basınç",
+        angleButton: "Açı",
+        frequencyButton: "Frekans",
+        units: {
+            length: {
+                '미터': 'Metre (m)',
+                '킬로미터': 'Kilometre (km)',
+                '센티미터': 'Santimetre (cm)',
+                '밀리미터': 'Milimetre (mm)',
+                '인치': 'İnç (in)',
+                '피트': 'Fit (ft)',
+                '야드': 'Yarda (yd)',
+                '마일': 'Mil (mi)',
+                '마이크로미터': 'Mikrometre (µm)',
+                '나노미터': 'Nanometre (nm)',
+                '해리': 'Deniz mili (NM)',
+                '퍼롱': 'Furlong (furlong)',
+                '광년': 'Işık yılı (ly)',
+                '천문단위': 'Astronomik birim (AU)',
+                '파섹': 'Parsek (pc)',
+                '에렉트론': 'Kubik (cubit)',
+                '링크': 'Link (lnk)',
+                '체인': 'Zincir (ch)',
+                '로드': 'Çubuk (rd)',
+                '폴': 'Direk (pole)',
+                '퍼치': 'Perch (perch)'
+            },
+            weight: {
+                '그램': 'Gram (g)',
+                '킬로그램': 'Kilogram (kg)',
+                '밀리그램': 'Miligram (mg)',
+                '톤': 'Ton (t)',
+                '파운드': 'Pound (lb)',
+                '온스': 'Ons (oz)'
+            },
+            area: {
+                '제곱미터': 'Metrekare (m²)',
+                '제곱킬로미터': 'Kilometrekare (km²)',
+                '헥타르': 'Hektar (ha)',
+                '제곱피트': 'Fitkare (ft²)',
+                '제곱야드': 'Yardakare (yd²)',
+                '에이커': 'Akre (ac)'
+            },
+            volume: {
+                '세제곱미터': 'Metreküp (m³)',
+                '리터': 'Litre (L)',
+                '밀리리터': 'Mililitre (mL)',
+                '갤런': 'Galon (gal)',
+                '쿼트': 'Quart (qt)',
+                '파인트': 'Pint (pt)'
+            },
+            temperature: {
+                '섭씨': 'Santigrat (°C)',
+                '화씨': 'Fahrenheit (°F)',
+                '켈빈': 'Kelvin (K)'
+            },
+            time: {
+                '초': 'Saniye (s)',
+                '분': 'Dakika (min)',
+                '시간': 'Saat (h)',
+                '일': 'Gün (d)',
+                '주': 'Hafta (wk)',
+                '년': 'Yıl (yr)'
+            },
+            speed: {
+                '미터/초': 'Metre/saniye (m/s)',
+                '킬로미터/시': 'Kilometre/saat (km/h)',
+                '마일/시': 'Mil/saat (mph)',
+                '노트': 'Knot (kn)'
+            },
+            dataSize: {
+                '바이트': 'Bayt (B)',
+                '킬로바이트': 'Kilobayt (KB)',
+                '메가바이트': 'Megabayt (MB)',
+                '기가바이트': 'Gigabayt (GB)',
+                '테라바이트': 'Terabayt (TB)'
+            },
+            energy: {
+                '줄': 'Jul (J)',
+                '킬로줄': 'Kilojul (kJ)',
+                '칼로리': 'Kalori (cal)',
+                '킬로칼로리': 'Kilokalori (kcal)',
+                '와트시': 'Watt-saat (Wh)',
+                '킬로와트시': 'Kilowatt-saat (kWh)'
+            },
+            pressure: {
+                '파스칼': 'Pascal (Pa)',
+                '킬로파스칼': 'Kilopascal (kPa)',
+                '바': 'Bar (bar)',
+                '대기압': 'Atmosfer basıncı (atm)',
+                '평방 인치 당 파운드(psi)': 'İnç kare başına pound (psi)'
+            },
+            angle: {
+                '도': 'Derece (°)',
+                '라디안': 'Radyan (rad)',
+                '그라디안': 'Gradyan (grad)'
+            },
+            frequency: {
+                '헤르츠': 'Hertz (Hz)',
+                '킬로헤르츠': 'Kilohertz (kHz)',
+                '메가헤르츠': 'Megahertz (MHz)',
+                '기가헤르츠': 'Gigahertz (GHz)'
+        }
+    }
 }
+
 };
-const conversionRates = {
+const conversionRates = { //단위 추가 시 작업
     length: {
         '미터': 1,
         '킬로미터': 0.001,
@@ -881,7 +1840,20 @@ const conversionRates = {
         '인치': 39.3701,
         '피트': 3.28084,
         '야드': 1.09361,
-        '마일': 0.000621371
+        '마일': 0.000621371,
+        '마이크로미터': 1000000,
+        '나노미터': 1000000000,
+        '해리': 0.000539957,
+        '퍼롱': 0.00497096,
+        '광년': 1.057e-16,
+        '천문단위': 6.6846e-12,
+        '파섹': 3.24078e-17,
+        '에렉트론': 2.18723,
+        '링크': 4.97096,
+        '체인': 0.0497097,
+        '로드': 0.198839,
+        '폴': 0.198839,
+        '퍼치': 0.198839
     },
     weight: {
         '그램': 1,
@@ -988,6 +1960,54 @@ function changeLanguage() {
 
     updateCategory();
 }
+
+// 언어 감지 및 설정 함수, 언어 추가 시 작업
+function detectLanguage() {
+    const userLang = navigator.language || navigator.userLanguage;
+
+    if (userLang.startsWith('ko')) {
+        document.getElementById('languageSelect').value = 'ko';
+    } else if (userLang.startsWith('en')) {
+        document.getElementById('languageSelect').value = 'en';
+    } else if (userLang.startsWith('ja')) {
+        document.getElementById('languageSelect').value = 'ja';
+    } else if (userLang.startsWith('es')) {
+        document.getElementById('languageSelect').value = 'es';
+    } else if (userLang.startsWith('de')) {
+        document.getElementById('languageSelect').value = 'de';
+    } else if (userLang.startsWith('fr')) {
+        document.getElementById('languageSelect').value = 'fr';
+    } else if (userLang.startsWith('ru')) {
+        document.getElementById('languageSelect').value = 'ru';
+    } else if (userLang.startsWith('it')) {
+        document.getElementById('languageSelect').value = 'it';
+    } else if (userLang.startsWith('pt-BR')) {
+        document.getElementById('languageSelect').value = 'pt-BR';
+    } else if (userLang.startsWith('id')) {
+        document.getElementById('languageSelect').value = 'id';
+    } else if (userLang.startsWith('zh')) {  // 중국어 간체와 번체 모두 지원
+        document.getElementById('languageSelect').value = 'zh-CN';
+    } else if (userLang.startsWith('ar')) {
+        document.getElementById('languageSelect').value = 'ar';
+    } else if (userLang.startsWith('vi')) {
+        document.getElementById('languageSelect').value = 'vi';
+    } else if (userLang.startsWith('uk')) {
+        document.getElementById('languageSelect').value = 'uk';
+    } else if (userLang.startsWith('tr')) {
+        document.getElementById('languageSelect').value = 'tr';
+    }
+    else {
+        // 설정된 언어가 없는 경우 기본 언어 설정
+        document.getElementById('languageSelect').value = 'en';
+    }
+
+    changeLanguage();
+}
+
+// 페이지 로드 시 언어 감지
+window.onload = function() {
+    detectLanguage();
+};
 
 function selectCategory(category) {
     const buttons = document.querySelectorAll('.category-button');
