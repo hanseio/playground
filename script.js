@@ -1964,49 +1964,67 @@ function changeLanguage() {
 // 언어 감지 및 설정 함수, 언어 추가 시 작업
 function detectLanguage() {
     const userLang = navigator.language || navigator.userLanguage;
+    const htmlTag = document.documentElement;  // <html> 태그를 참조
 
     if (userLang.startsWith('ko')) {
         document.getElementById('languageSelect').value = 'ko';
+        htmlTag.setAttribute("lang", "ko");
     } else if (userLang.startsWith('en')) {
         document.getElementById('languageSelect').value = 'en';
+        htmlTag.setAttribute("lang", "en");
     } else if (userLang.startsWith('ja')) {
         document.getElementById('languageSelect').value = 'ja';
+        htmlTag.setAttribute("lang", "ja");
     } else if (userLang.startsWith('es')) {
         document.getElementById('languageSelect').value = 'es';
+        htmlTag.setAttribute("lang", "es");
     } else if (userLang.startsWith('de')) {
         document.getElementById('languageSelect').value = 'de';
+        htmlTag.setAttribute("lang", "de");
     } else if (userLang.startsWith('fr')) {
         document.getElementById('languageSelect').value = 'fr';
+        htmlTag.setAttribute("lang", "fr");
     } else if (userLang.startsWith('ru')) {
         document.getElementById('languageSelect').value = 'ru';
+        htmlTag.setAttribute("lang", "ru");
     } else if (userLang.startsWith('it')) {
         document.getElementById('languageSelect').value = 'it';
+        htmlTag.setAttribute("lang", "it");
     } else if (userLang.startsWith('pt-BR')) {
         document.getElementById('languageSelect').value = 'pt-BR';
+        htmlTag.setAttribute("lang", "pt-BR");
     } else if (userLang.startsWith('id')) {
         document.getElementById('languageSelect').value = 'id';
+        htmlTag.setAttribute("lang", "id");
     } else if (userLang.startsWith('zh')) {  // 중국어 간체와 번체 모두 지원
         document.getElementById('languageSelect').value = 'zh-CN';
+        htmlTag.setAttribute("lang", "zh-CN");
     } else if (userLang.startsWith('ar')) {
         document.getElementById('languageSelect').value = 'ar';
+        htmlTag.setAttribute("lang", "ar");
     } else if (userLang.startsWith('vi')) {
         document.getElementById('languageSelect').value = 'vi';
+        htmlTag.setAttribute("lang", "vi");
     } else if (userLang.startsWith('uk')) {
         document.getElementById('languageSelect').value = 'uk';
+        htmlTag.setAttribute("lang", "uk");
     } else if (userLang.startsWith('tr')) {
         document.getElementById('languageSelect').value = 'tr';
+        htmlTag.setAttribute("lang", "tr");
     }
     else {
         // 설정된 언어가 없는 경우 기본 언어 설정
         document.getElementById('languageSelect').value = 'en';
+        htmlTag.setAttribute("lang", "en");
     }
 
     changeLanguage();
 }
 
-// 페이지 로드 시 언어 감지
+
 window.onload = function() {
-    detectLanguage();
+    detectLanguage();// 언어 감지 및 설정
+    initializeConverter();// 변환기 초기화 및 기본 설정
 };
 
 function selectCategory(category) {
@@ -2077,5 +2095,3 @@ function initializeConverter() {
     convert();  // 초기 변환 수행
 }
 
-// 페이지 로드 시 초기화 함수 호출
-window.onload = initializeConverter;
